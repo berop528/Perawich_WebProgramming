@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterForm</title>
+</head>
+<body>
+    <h1>เเบบฟอร์มลงทะเบียนสาขาIS/IT</h1>
+    <form action="">
+        <p>
+            <label for="firstname">คำนำหน้าชื่อ:</label>
+        
+        <input type="radio" name="firstname" value="nangsaw"checked>นางสาว
+        <input type="radio" name="firstname" value="nang">นาง
+        <input type="radio" name="firstname" value="nai" >นาย
+         <input type="radio" name="firstname" value="other">อื่นๆ
+        </p>
+    <label for="name">ชื่อ-สกุล:</label>
+    <input type="text" name="name_surname" size="20" >
+    <p>
+        <label for="numstuden">รหัสนักศึกษา:</label>
+        <input type="text" name="passstudent" maxlength="10">
+    </p>
+    <p>
+        <label for="Gender">เพศ:</label>
+    <input type="radio" name="Gender" value="femele" checked>หญิง
+    <input type="radio" name="Gender" value="mele">ชาย
+    <input type="radio" name="Gender" value="other">อื่นๆ
+    </p>
+    <p>
+        <label for="years">ปีการศึกษาเข้าศึกษา:</label>
+        <select name="years" >
+            <option value="2565" selected>2565</option>
+            <option value="2564" >2564 </option>
+            <option value="2563">2563</option>
+            <option value="2562">2562</option>
+            <option value="2561">2561</option>
+            <option value="2560">2560</option>
+        </select>
+    </p>
+    <p>
+        <label for="address">ที่อยู่:</label>
+            <textarea name="address"  cols="30" rows="5"></textarea>
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" >
+    </p>
+       <p>
+        <label for="tel">เบอร์โทรติดต่อ:</label>
+        <input type="tel" name="tel" maxlength="10">
+       </p>
+<p>
+    <label for="course">หลักสูตร:</label>
+    <input type="radio" name="course" checked>IT
+    <input type="radio" name="course" >IS
+</p>
+<p>
+    <label for="job">อาชีพปัจจุบัน:</label>
+    <input type="text" name="" id="">
+    <p>
+    <label for="job">ประเภทงานที่ทำ:</label>
+    <select name="job" >
+        <option value="teachcom">ครูสอนวิชาคอมพิวเตอร์</option>
+        <option value="webdesigner">นักออกเเบบเว็บ</option>
+        <option value="itnews">นักข่าวไอที</option>
+        <option value="systemanalysis">นักวิเคราะห์และออกแบบระบบ</option>
+        <option value="administrator">ผู้ดูแลระบบสารสนเทศ</option>
+        <option value="programer">โปรแกรมเมอร์</option>
+        <option value="tester" selected>นักทดสอบระบบ</option>
+        <option value="other">อื่นๆ</option>
+        </select>
+</p>
+
+
+    
+</select>
+</p>
+<p>
+    <label for="orther">อื่นๆ:</label>
+    <input type="text" name="other" >
+    </p>
+    <label for="addressnamebrisus">สถานที่ทำงาน (ระบุชื่อบริษัทเเละที่อยู่):</label>
+<p>
+    
+    <textarea name="addressnamebrisus"  cols="30" rows="5"></textarea>
+</p>
+
+
+<p>    
+    <label for="photo">รูปถ่ายตนเอง1รูป:</label>
+    <input type="file" name="file" >
+</p>
+    
+    </form>
+</body>
+</html>
