@@ -1,0 +1,21 @@
+li{
+    color: red;
+    letter-spacing: 1px;
+}
+body{
+    font-family:'Ibarra Real Nova',serif; 
+    font-size: 20px;
+    background-color: palegoldenrod;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+    font-size: 48px;
+    color: blue!important;
+    background-color: yellow;
+}
+a:visited{
+    color: black;
+}
