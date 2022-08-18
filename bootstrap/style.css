@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Oleo+Script+Swash+Caps&family=Quicksand&display=swap');
+
+/*modify css_bootstack*/
+.navbar-brand{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 30px;
+}
+.picture1{
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+   
+}
+.rww{
+    width: 300px;
+}
+.pad1{
+    padding-top: 100px;
+}
+.radion{
+    border-radius:50px;
+}
+.bg{
+    background-color: rgba(255, 187, 1, 0.89);
+    padding-bottom: 50px;
+}
+#h558{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.fixed_nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#icon{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.h3_70{
+    text-align: center;
+}
+.footer{
+    background-color: rgb(14, 147, 224);
+    margin-top: 100px;
+    
+}
+.margin_contain{
+    margin-top: 100px;
+}
+.margin_75{
+    margin-right: 10px;
+}
+#imgDrumicon,#Databaseicon,#Programicon{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.bod_84{
+    border:solid ;
+}
+.picpro_1,.picpro_2,.picpro_3,.picpro_4{
+    width: 280px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+.bgfooter{
+    width: 80px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+.email{
+    margin-top:55px;
+}
+.pad_132{
+    margin-top: 60px;
+}
+.pad_134{
+    margin-bottom:60px;
+}
+.fonttop{
+    margin-top: 10px;
+}
+.sizefotter_logo_ig{
+    margin-left: 500px;
+    margin-top: 40px;
+    width: 70px;
+}
+.sizefotter_logo_twitter{
+    margin-top: 40px;
+    width: 35px;
+}
+.sizefotter_logo_facebook{
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 38px;
+}
+.sizefotter_logo_world{
+    margin-left: 5px;
+    margin-top: 40px;
+    width: 35px;
+}
+.content{
+    margin-right: 40px;
+}
