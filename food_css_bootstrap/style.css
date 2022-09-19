@@ -1,0 +1,16 @@
+img{
+    border-radius:20px;
+    width: 500px;
+}
+.color{
+    background-color: rgb(247, 188, 26);
+}
+.colo{
+    background-color: rgb(180, 58, 28);
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.dic{
+    margin-top: 20px;
+}
